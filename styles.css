@@ -1,0 +1,43 @@
+/* Styles */
+body {
+	margin-top: 3em;
+	background-color: hsl(212, 45%, 89%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	font-family: Outfit /*Verdana, Geneva, Tahoma, sans-serif*/;
+}
+
+.card {
+	width: 1440em;
+	padding: 0.5em;
+	border-radius: 1em;
+	width: 25rem;
+	background-color: white;
+}
+
+.card-img-top {
+	border-radius: 1em;
+	width: 23.8rem;
+	height: 23.8rem;
+}
+
+p#improve.card-text {
+	margin: 1em;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+p#scan.card-text {
+	margin: 1em;
+	font-weight: 400;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
